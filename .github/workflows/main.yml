@@ -157,7 +157,7 @@ jobs:
           context: ./gateway/
           push: true
           # Тут вместо username должен быть ваш логин на Docker Hub
-          tags: vitorgorbach/taski_gateway:latest
+          tags: viktorgorbach/taski_gateway:latest
 
 
   deploy:
