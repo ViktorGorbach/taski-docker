@@ -211,6 +211,6 @@ jobs:
     - name: Send message
       uses: appleboy/telegram-action@master
       with:
-        to: ${{ secrets.TELEGRAM_TO }}
-        token: ${{ secrets.TELEGRAM_TOKEN }}
-        message: Деплой успешно выполнен!
+        to: ${{ secrets.TELEGRAM_ME }}
+        token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        message: Deploy done!
